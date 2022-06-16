@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.calculator {
+    background-color: gray;
+    margin: 5em auto;
+    width: 25em;
+}
+
+.display {
+    background: #1a1515;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    height: 6em;
+    line-height: 8em;
+    padding: 0 1.5em;
+    text-align: left;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto 0.5em;
+    padding: 0.7em 0;
+}
+
+.controls button {
+    background: #1a1515;
+    border-radius: 0.7em;
+    color: white;
+    cursor: pointer;
+    height: 5em;
+    margin: 0.5em 0.5em;
+}
+
+.controls .tap {
+    background: gold;
+}
+
+.controls .equals {
+    background: blue;
+}
+
+.controls .clear {
+    background: red;
+}
+
+.controls button:hover {
+    background: goldenrod;
+}
+
+.controls .button:active {
+    transform: translateY(0.5em);
+}
